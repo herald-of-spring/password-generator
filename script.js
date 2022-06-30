@@ -74,7 +74,6 @@ function generatePassword() {
         features[i] = 1 + Math.floor(Math.random()*(length-temp-chars));
       }
       chars += features[i];
-      console.log(features[i])
     }
     else {
       features[i] = 0;
